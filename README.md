@@ -132,7 +132,7 @@ sudo install ./utils/mac/minikube /usr/local/bin
 ## Launch Minikube
 
 ```
-$ minikube start --cpus 4 --memory 8096 --disk-size=40g --kubernetes-version v1.14.0 --insecure-registry "10.0.0.0/24"
+$ minikube start --cpus 4 --memory 8096 --disk-size=40g --kubernetes-version v1.14.0 --insecure-registry "10.0.0.0/24" --vm-driver=virtualbox
 ```
 
 
